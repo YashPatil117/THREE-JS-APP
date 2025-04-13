@@ -19,6 +19,9 @@ const cubematerial2 = new THREE.MeshBasicMaterial({color: 0x0000ff}); //color of
 const cube = new THREE.Mesh(cubegeometry, cubematerial); //creating a mesh of the cube geometry and material
 const cube2 = new THREE.Mesh(cubegeometry2, cubematerial2); //creating a mesh of the cube geometry and material
 
+//const letters = new THREE.TextGeometry('Hello World')//creating a text geometry
+
+
 
 
 scene.add(cube); //adding the cube to the scene
